@@ -1,0 +1,17 @@
+body {
+    background: black;
+
+}
+h1 {
+    color:  aliceblue;
+    font-size: 36px;
+}
+
+h2 {
+    color: white;
+    font-size: 28px;
+}
+p {
+    color: white;
+    font-size: 20px;
+}
