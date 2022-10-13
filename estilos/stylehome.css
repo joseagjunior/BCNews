@@ -1,5 +1,5 @@
 body {
-    background: black;
+    background: rgb(0, 0, 0);
 
 }
 h1 {
@@ -14,4 +14,11 @@ h2 {
 p {
     color: white;
     font-size: 20px;
+}
+
+#imagem_bc_home {
+    max-height: 200px;
+    max-width: 200px;
+    padding: 25px;
+    margin: auto;
 }
