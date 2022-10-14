@@ -2,23 +2,38 @@ body {
     background: rgb(0, 0, 0);
 
 }
-h1 {
-    color:  aliceblue;
-    font-size: 36px;
-}
-
-h2 {
-    color: white;
-    font-size: 28px;
-}
 p {
-    color: white;
-    font-size: 20px;
+    color: white; font-size: 20px;
 }
 
-#imagem_bc_home {
-    max-height: 200px;
-    max-width: 200px;
-    padding: 25px;
-    margin: auto;
+.imagem_bc_home {
+    max-height: 100px; max-width: 120px; padding: 10px;
+    min-height: auto; min-width: auto;
+}
+
+header {
+    background: #474747; padding: 5px 0;
+    position: center;
+}
+
+.menu_home{
+    position: relative; width: 900px; margin: 0 auto;
+}
+
+nav {
+    position: absolute; right: 0; top: 20px;
+}
+
+nav li {
+    display: inline; margin: 0 0 0 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a {
+    text-transform: uppercase; color: #ffffff; font-weight: bold;
+    font-size: 22px; text-decoration: none;
+}
+
+.footer {
+    position: fixed;
 }
