@@ -1,37 +1,97 @@
 body {
     background: rgb(0, 0, 0);
-
+    
 }
+
 p {
-    color: white; font-size: 20px;
+    color: white;
+    font-size: 20px;
 }
 
 .imagem_bc_home {
-    max-height: 100px; max-width: 120px; padding: 10px;
-    min-height: auto; min-width: auto;
+    max-height: 100px;
+    max-width: 120px;
+    padding: 10px;
+    min-height: auto;
+    min-width: auto;
 }
 
 header {
-    background: #474747; padding: 5px 0;
-    position: center;
+    background: #474747;
+    padding: 2px 0;
+    position: relative;
+    margin: auto;
 }
 
 .menu_home{
-    position: relative; width: 900px; margin: 0 auto;
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
 }
 
 nav {
-    position: absolute; right: 0; top: 20px;
+    position: absolute;
+    right: 0;
+    top: 20px;
 }
 
 nav li {
-    display: inline; margin: 0 0 0 40px;
+    display: inline;
+    margin: 0 0 0 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav a {
-    text-transform: uppercase; color: #ffffff; font-weight: bold;
-    font-size: 22px; text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+}
+
+#noticia_foto {
+    background: url(../images/n1.jpeg) center no-repeat;
+    padding: 200px 0 200px 0;
+    position: relative;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    margin: 10px auto;
+    max-height: 100px;
+    max-width: auto;
+}
+
+.noticia_foto_tema {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.noticia {
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 15px;
+    height: auto;
+    width: 1200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer {
