@@ -16,7 +16,7 @@ p {
     min-width: auto;
 }
 
-header {
+.header_menu {
     background: #2d3839;
     padding: 2px 0;
     position: relative;
@@ -282,4 +282,10 @@ nav a:hover {
 .box_login button a {
     color: #000000;
     text-decoration: none;
+}
+
+/*Sobre*/
+img {
+    max-height: 400px;
+    max-height: 400px;
 }
