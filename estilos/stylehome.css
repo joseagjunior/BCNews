@@ -70,6 +70,10 @@ nav a:hover {
     margin-bottom: 200px;
 }
 
+.secao_mini_noticia a {
+    text-decoration: none;
+}
+
 .foto_mini_noticia {
     position: relative;
     background-size: cover;
@@ -293,8 +297,12 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    height: 1500px;
+    height: 1700px;
     width: 1200px;
+}
+
+.box_sobre p{
+    margin-left: 60px;
 }
 
 .box_sobre img {
@@ -309,4 +317,41 @@ nav a:hover {
     width: 770px;
     float: right;
     text-align: justify;
+}
+
+.texto_sobre_sobre {
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    margin-top: 60px;
+    margin-right: 60px;
+    text-align: justify;
+}
+
+/*Noticia*/
+
+.box_noticia {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_noticia{
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 500px;
+    float: left;
+}
+
+.texto_noticia{
+    color: aliceblue;
+    width: 1200px;
+    margin-right: 70px;
+}
+
+.texto_noticia p{
+    text-align: justify;
+    font-size: 20px;
 }
