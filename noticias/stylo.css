@@ -1,0 +1,39 @@
+body{
+    background: black;
+}
+h1{
+  color: aliceblue;
+  font-size: 30px;
+  text-align: center;
+}
+p{
+    color: aliceblue;
+}
+
+
+h2{
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+}
+.box_noticia {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img_noticia{
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 500px;
+    float: left;
+}
+.texto_noticia{
+    color: aliceblue;
+    width: 1200px;
+    margin-right: 70px;
+}
+.texto_noticia p{
+    text-align: justify;
+    font-size: 20px;
+}
