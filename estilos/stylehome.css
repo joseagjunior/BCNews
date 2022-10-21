@@ -355,3 +355,76 @@ nav a:hover {
     text-align: justify;
     font-size: 20px;
 }
+
+/*fale_conosco*/
+
+.box_fac {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    background-color: #2d3839;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    height: 700px;
+    width: 800px;
+    box-shadow: 10px 10px white;
+}
+
+.box_fac h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.box_fac p {
+    margin-bottom: 3px;
+    text-shadow: 3px 3px #000000;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+.box_fac input {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 15px;
+}
+
+.box_fac button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    display: flex;
+    margin: 35px auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 3px 3px #000000;
+}
+
+.box_fac button a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.mensagem {
+    height: 100px;
+    width: 300px;
+}
+
+.contato {
+    padding-left: 140px;
+}
