@@ -157,7 +157,10 @@ nav a:hover {
 }
 
 .footer {
-    position: fixed;
+    position: relative;
+    background: #ffffff;
+    height: 200px;
+    width: auto;
 }
 
 
