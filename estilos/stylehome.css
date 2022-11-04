@@ -1,6 +1,5 @@
 body {
     background: #27191c;
-    
 }
 
 p {
@@ -158,7 +157,7 @@ nav a:hover {
 
 .footer {
     position: relative;
-    background: #ffffff;
+    background: #27191c;
     height: 200px;
     width: auto;
 }
