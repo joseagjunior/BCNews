@@ -1,9 +1,9 @@
 body {
-    background: #27191c;
+    background: #fffffff4;
 }
 
 p {
-    color: white;
+    color: #000000;
     font-size: 20px;
 }
 
@@ -16,7 +16,7 @@ p {
 }
 
 .header_menu {
-    background: #2d3839;
+    background: #000000;
     padding: 2px 0;
     position: relative;
     margin: auto;
@@ -36,7 +36,7 @@ nav {
 
 nav li {
     display: inline;
-    margin: 0 0 0 40px;
+    margin: 0 0 0 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -44,17 +44,17 @@ nav a {
     text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 16px;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: black;
+    color: #252525;
 }
 
 .secao {
     padding: 50px 0 50px 0;
-    justify-content: space-between;
+    justify-content: center;
     max-height: 300px;
     max-width: auto;
     display: flex;
@@ -64,8 +64,8 @@ nav a:hover {
 
 .secao_mini_noticia {
     padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-bottom: 200px;
 }
 
@@ -88,21 +88,21 @@ nav a:hover {
     margin-bottom: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    color: #ffffff;
+    color: #000000;
     width: 350px;
 }
 
 .secao_mini_p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
-    color: #ffffff;
+    color: #000000;
     width: 350px;
     text-align: justify;
     margin-top: 10px;
 }
 
 .noticia_foto_tema {
-    color: #ffffff;
+    color: #000000;
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: 0.1em 0.1em 0.2em black;
@@ -112,7 +112,7 @@ nav a:hover {
 }
 
 .noticia {
-    color: #ffffff;
+    color: #000000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-top: 10px;
     padding-left: 15px;
@@ -132,7 +132,7 @@ nav a:hover {
 .titulo_noticia {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .data_noticia {
@@ -151,15 +151,30 @@ nav a:hover {
     width: 1100px;
     border-width: 1px;
     border-style: solid;
+    border-color: #000000;
+    border-radius: 15px;
+}
+
+.barra_sobre {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    border-width: 1px;
+    border-style: solid;
     border-color: #ffffff;
     border-radius: 15px;
 }
 
 .footer {
     position: relative;
-    background: #27191c;
-    height: 200px;
+    background: #000000 ;
+    height: 150px;
     width: auto;
+    padding: 2px 0;
+    position: relative;
+    margin: auto;
+    margin-top: 15px;
 }
 
 
@@ -168,13 +183,13 @@ nav a:hover {
 .box_cadastro {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
-    background-color: #2d3839;
+    background-color: #000000;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
     height: 700px;
     width: 800px;
-    box-shadow: 10px 10px white;
+    box-shadow: 10px 10px #252525;
 }
 
 .box_cadastro h1 {
@@ -185,8 +200,9 @@ nav a:hover {
 }
 
 .box_cadastro p {
+    color: #ffffff;
     margin-bottom: 3px;
-    text-shadow: 3px 3px #000000;
+    text-shadow: 3px 3px #252525;
     padding-bottom: 2px;
     text-align: center;
 }
@@ -206,25 +222,31 @@ nav a:hover {
     border-radius: 15px;
 }
 
-.box_cadastro button {
+.cadastro_button {
+    text-align: center;
+    color: #000000;
+    background: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     padding-top: 5px;
     padding-left: 30px;
     padding-bottom: 5px;
     padding-right: 30px;
-    display: flex;
-    margin: 35px auto;
+    display: block;
+    margin-top: 35px;
+    margin-right: auto;
+    margin-left: auto;
     border-width: 5px;
     border-style: solid;
     border-color: #ffffff;
     border-radius: 15px;
-    box-shadow: 3px 3px #000000;
+    box-shadow: 5px 5px #252525;
+    width: 150px;
+    text-decoration: none;
 }
 
-.box_cadastro button a {
-    color: #000000;
-    text-decoration: none;
+.cadastro_button:hover {
+   box-shadow: 0px 0px;
 }
 
 /*Login*/
@@ -232,13 +254,13 @@ nav a:hover {
 .box_login {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
-    background-color: #2d3839;
+    background-color: #000000;
     margin-left: auto;
     margin-right: auto;
     margin-top: 110px;
     height: 500px;
     width: 800px;
-    box-shadow: 10px 10px white;
+    box-shadow: 10px 10px #252525;
 }
 
 .box_login h1 {
@@ -249,8 +271,9 @@ nav a:hover {
 }
 
 .box_login p {
+    color: #ffffff;
     margin-bottom: 3px;
-    text-shadow: 3px 3px #000000;
+    text-shadow: 3px 3px #252525;
     padding-bottom: 2px;
     text-align: center;
 }
@@ -270,32 +293,11 @@ nav a:hover {
     border-radius: 15px;
 }
 
-.box_login button {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    padding-top: 5px;
-    padding-left: 30px;
-    padding-bottom: 5px;
-    padding-right: 30px;
-    display: flex;
-    margin: 35px auto;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #ffffff;
-    border-radius: 15px;
-    box-shadow: 3px 3px #000000;
-}
-
-.box_login button a {
-    color: #000000;
-    text-decoration: none;
-}
-
 /*Sobre*/
 .box_sobre {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
-    background-color: #2d3839;
+    background-color: #000000;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
@@ -304,6 +306,7 @@ nav a:hover {
 }
 
 .box_sobre p{
+    color: #ffffff;
     margin-left: 60px;
 }
 
@@ -363,7 +366,7 @@ nav a:hover {
 .box_fac {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
-    background-color: #2d3839;
+    background-color: #000000;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
@@ -380,8 +383,9 @@ nav a:hover {
 }
 
 .box_fac p {
+    color: #ffffff;
     margin-bottom: 3px;
-    text-shadow: 3px 3px #000000;
+    text-shadow: 3px 3px #252525;
     padding-bottom: 2px;
     text-align: center;
 }
@@ -395,6 +399,21 @@ nav a:hover {
     padding-bottom: 3px;
     padding-left: 25px;
     padding-right: 25px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 15px;
+}
+
+.box_fac textarea {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-width: 5px;
     border-style: solid;
     border-color: #ffffff;
