@@ -2,8 +2,8 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="estilos/stylehome.css">
         <title>BC News</title>
+        <link rel="stylesheet" type="text/css" href="estilos/stylehome.css">
         <link rel="icon" type="image.png" href="images/BCnewsMiniCinza.png">
     </head>
     <body>
@@ -22,21 +22,84 @@
                 </nav>
             </div>
         </header>
-        <div class="box_cadastro">
+        <div class="box_cad">
             <h1>Cadastro</h1>
-            <p>Nome do Autor</p>
-            <input type="text">
-            <p>Sobrenome</p>
-            <input type="text">
-            <p>Usuário</p>
-            <input type="text">
-            <p>E-mail</p>
-            <input type="email">
-            <p>Senha</p>
-            <input type="password">
-            <p>Confirme sua senha</p>
-            <input type="password">
-            <a class="cadastro_button" href="5_login.html">Cadastrar</a>
+            <form action="cad_form.php" method="post">
+                <table>
+                    <tr>
+                        <td>
+                            <p><label>Nome</label><input type="text" name="nome" maxlength="15" placeholder="Digite seu nome" class="nome_cad" required></p>
+                        </td>
+                        <td>
+                            <p><label>Sobrenome</label><input type="text" name="sobrenome" maxlength="20" placeholder="Digite seu sobrenome" class="sobrenome_cad" required> </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><label>Usuário</label><input type="text" name="usuario" maxlength="20" placeholder="Digite o nome do seu usuário" class="usuario_cad" required></p>
+                        </td>
+                        <td>
+                            <p><label>CPF</label><input type="number" name="cpf" maxlength="11" placeholder="Digite o seu CPF, somente números" class="cpf_cad" required></p>
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <td>
+                            <p><label>E-mail</label><input type="email" name="email" placeholder="Digite seu E-mail" class="email_cad" required></p>
+                        </td>
+                        <td>
+                            <p><label>Telefone</label><input type="tel" name="telefone" maxlength="15" placeholder="(99) 99999-9999" class="telefone_cad" required></p>
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <td>
+                            <p><label>Senha</label><input type="password" name="senha" maxlength="50" placeholder="Digite uma senha" class="senha_cad" required></p>
+                        </td>
+                        <td>
+                            <p><label>Confirme sua senha</label><input type="password" name="conf_senha" maxlength="50" placeholder="Digite a confirmação da sua senha" class="confsenha_cad" required></p>        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><label>Rua</label><input type="text" name="rua" maxlength="30" placeholder="Nome da rua" class="rua_cad" required></p>
+                        </td>
+                        <td>
+                            <p><label>Número</label><input type="number" name="numero" maxlength="4" placeholder="Número da sua casa" class="num_cad" required></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><label>Bairro</label><input type="text" name="bairro" maxlength="30" placeholder="Nome do seu Bairro" class="bairro_cad" required></p>
+                        </td>
+                        <td>
+                            <p><label>Cidade</label><input type="text" name="cidade" maxlength="30" placeholder="Nome da sua Cidade" class="cidade_cad" required></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><label>CEP</label><input type="number" name="cep" maxlength="10" placeholder="CEP da sua Rua" class="cep_cad" required></p>
+                        </td>
+                        <td>
+                            <p>Tipo de cadastro: <br>
+                                <input type="radio" name="tipo" value="Leitor" required/> Leitor
+                                <input type="radio" name="tipo" value="Escritor" required/> Escritor
+                                <input type="radio" name="tipo" value="Reporter" required/> Reporter
+                            </p>
+                        </td>
+                    </tr>
+
+
+
+                    
+                    <tr>
+                        <td>
+                            <p><input type="submit" value="Cadastrar" class="cad_button"></p>            
+                        </td>
+                        <td>
+                            <p><input type="reset" value="Limpar Campos" class="cad_button"></p>
+                        </td>
+                    </tr>
+                </table>
+            </form>
         </div>
 
     </body>

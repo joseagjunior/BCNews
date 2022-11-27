@@ -180,26 +180,36 @@ nav a:hover {
 
 /*Cadastro*/
 
-.box_cadastro {
+.box_cad {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
     background-color: #000000;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    height: 700px;
+    height: 900px;
     width: 800px;
     box-shadow: 10px 10px #252525;
 }
 
-.box_cadastro h1 {
+.box_cad table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box_cad table tr td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box_cad h1 {
     font-size: 50px;
     letter-spacing: 2px;
-    padding-top: 20px;
+    padding-top: 25px;
     text-align: center;
 }
 
-.box_cadastro p {
+.box_cad p {
     color: #ffffff;
     margin-bottom: 3px;
     text-shadow: 3px 3px #252525;
@@ -207,22 +217,25 @@ nav a:hover {
     text-align: center;
 }
 
-.box_cadastro input {
+.nome_cad, .sobrenome_cad, .usuario_cad, .cpf_cad, .email_cad, .telefone_cad, .senha_cad, .confsenha_cad, .rua_cad, .num_cad, .bairro_cad, .cidade_cad, .cep_cad {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     display: block;
     margin: 0 auto;
     padding-top: 3px;
     padding-bottom: 3px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-width: 5px;
     border-style: solid;
     border-color: #ffffff;
     border-radius: 15px;
+    width: 250px;
+    height: 20px;
+    text-align: center;
 }
 
-.cadastro_button {
+.cad_button {
     text-align: center;
     color: #000000;
     background: #ffffff;
@@ -233,7 +246,7 @@ nav a:hover {
     padding-bottom: 5px;
     padding-right: 30px;
     display: block;
-    margin-top: 35px;
+    margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
     border-width: 5px;
@@ -241,12 +254,15 @@ nav a:hover {
     border-color: #ffffff;
     border-radius: 15px;
     box-shadow: 5px 5px #252525;
-    width: 150px;
+    width: 250px;
     text-decoration: none;
 }
 
-.cadastro_button:hover {
-   box-shadow: 0px 0px;
+.cad_button:hover {
+    box-shadow: 0px 0px;
+    background: #000000;
+    color: #ffffff;
+    border-color: #ffffff;
 }
 
 /*Login*/
@@ -278,19 +294,22 @@ nav a:hover {
     text-align: center;
 }
 
-.box_login input {
+.email_login ,.senha_login {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     display: block;
     margin: 0 auto;
     padding-top: 3px;
     padding-bottom: 3px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-width: 5px;
     border-style: solid;
     border-color: #ffffff;
     border-radius: 15px;
+    width: 250px;
+    height: 20px;
+    text-align: center;
 }
 
 /*Sobre*/
