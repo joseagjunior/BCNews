@@ -24,12 +24,26 @@
         </header>
         <div class="box_login">
             <h1>Login</h1>
-            <p>E-mail</p>
-            <input type="email" class="email_login">
-            <p>Senha</p>
-            <input type="password" class="senha_login">
-            <a class="cad_button" href="index.html">Logar</a>
-            <a class="cad_button" href="6_cadastro.html">Cadastre-se</a>
+            <form action="log_form.php" method="post">
+                <p><label>E-mail</label><input type="email" name="email" placeholder="Digite seu E-mail" class="email_login" required></p>
+                <p><label>Senha</label><input type="password" name="senha" placeholder="Digite sua senha" class="senha_login" required></p>
+                <p><input type="submit" value="Login" class="cad_button"></p>
+                <p><a class="cad_button" href="6_cadastro.html">Cadastre-se</a></p>
+            </form>
+        </div>
+        <div class="footer">
+            <img class="imagem_bc_home_footer" type="image.png" src="images/BCnews-logoFundo.png">
+            <div class="menu_home_footer">
+                <nav>
+                    <ol>
+                        <li><a href="2_sobre.html">Sobre</a></li>
+                        <li><a href="3_noticias.html">Notícias</a></li>
+                        <li><a href="4_fale_conosco.html">Fale Conosco</a></li>
+                    </ol>
+                </nav>
+            </div>
+            <br>
+            <p>© Copyright 2000-2022 BC News</p>
         </div>
 
     </body>

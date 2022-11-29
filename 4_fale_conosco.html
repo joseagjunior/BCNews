@@ -26,15 +26,27 @@
 
         <div class="box_fac">
             <h1>Fale Conosco</h1>
-            <p>Seu Nome</p>
-            <input type="text">
-            <p>E-mail</p>
-            <input type="email">
-            <p>Telefone</p>
-            <input type="number">
-            <p>Mensagem</p>
-            <textarea class="mensagem" cols="30" rows="5"></textarea>
-            <a class="cadastro_button" href="5_login.html">Enviar</a>
+            <form action="fac_form.php" method="post">
+                <p><label>Seu Nome</label><input type="text" name="nome" maxlength="40" placeholder="Digite seu nome" class="nome_fac" required></p>
+                <p><label>E-mail</label><input type="email" name="email" placeholder="Digite seu E-mail" class="email_fac" required></p>
+                <p><label>Telefone</label><input type="tel" name="telefone" maxlength="15" placeholder="(99) 99999-9999" class="telefone_fac" required></p>
+                <p><label>Mensagem</label><textarea name="mensagem" maxlength="500" placeholder="Digite sua mensagem" class="mensagem_fac" cols="40" rows="5" required></textarea></p>
+                <p><input type="submit" value="Enviar" class="cad_button"></p>                
+            </form>
+        </div>
+        <div class="footer">
+            <img class="imagem_bc_home_footer" type="image.png" src="images/BCnews-logoFundo.png">
+            <div class="menu_home_footer">
+                <nav>
+                    <ol>
+                        <li><a href="2_sobre.html">Sobre</a></li>
+                        <li><a href="3_noticias.html">Notícias</a></li>
+                        <li><a href="4_fale_conosco.html">Fale Conosco</a></li>
+                    </ol>
+                </nav>
+            </div>
+            <br>
+            <p>© Copyright 2000-2022 BC News</p>
         </div>
 
     </body>
