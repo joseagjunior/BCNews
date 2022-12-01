@@ -3,14 +3,15 @@ body, html {
     min-height: 100%;
 }
 
-p {
+.noticia p {
     color: #000000;
-    font-size: 20px;
+    font-size: 15px;
+    text-indent:4em;
 }
 
 .imagem_bc_home {
-    max-height: 100px;
-    max-width: 120px;
+    max-height: 60px;
+    max-width: 70px;
     padding: 10px;
     min-height: auto;
     min-width: auto;
@@ -21,6 +22,7 @@ p {
     padding: 2px 0;
     position: relative;
     margin: auto;
+    box-sizing: inherit;
 }
 
 .menu_home{
@@ -32,7 +34,7 @@ p {
 nav {
     position: absolute;
     right: 0;
-    top: 20px;
+    top: 10px;
 }
 
 nav li {
@@ -45,48 +47,48 @@ nav a {
     text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 13px;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #252525;
+    color: #747373;
 }
 
 .secao {
-    padding: 50px 0 50px 0;
+    padding-top: 50px;
     justify-content: center;
     max-height: 300px;
     max-width: auto;
     display: flex;
-    margin-left: 350px;
-    margin-right: 350px;
 }
 
 .secao_mini_noticia {
     padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 .secao_mini_noticia a {
     text-decoration: none;
+    text-align: center;
 }
 
 .foto_mini_noticia {
     position: relative;
     background-size: cover;
     margin-bottom: 1px;
-    height: 200px;
-    width: 350px;
+    height: 150px;
+    width: 300px;
     min-height: auto;
     min-width: auto;
+    text-align: center;
 }
 
 .titulo_mini_noticia {
     margin-top: 1px;
-    margin-bottom: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     color: #000000;
@@ -97,9 +99,11 @@ nav a:hover {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     color: #000000;
-    width: 350px;
+    width: 290px;
     text-align: justify;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .noticia_foto_tema {
@@ -120,7 +124,7 @@ nav a:hover {
     padding-right: 15px;
     font-size: 13px;
     height: auto;
-    width: 1200px;
+    width: 1000px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -133,6 +137,7 @@ nav a:hover {
 .titulo_noticia {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
+    text-decoration: none;
     color: #000000;
 }
 
@@ -229,7 +234,7 @@ nav a:hover {
 .box_cad h1 {
     font-size: 50px;
     letter-spacing: 2px;
-    padding-top: 25px;
+    padding-top: 50px;
     text-align: center;
 }
 
@@ -257,6 +262,11 @@ nav a:hover {
     width: 250px;
     height: 20px;
     text-align: center;
+}
+
+#erro_senha {
+    border: #dc0909;
+    border-width: 5px;
 }
 
 .cad_button {
@@ -380,6 +390,7 @@ nav a:hover {
 /*Noticia*/
 
 .box_noticia {
+    height: 560px;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -394,7 +405,9 @@ nav a:hover {
 }
 
 .texto_noticia{
-    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    font-size: 13px;
     width: 1200px;
     margin-right: 70px;
 }
